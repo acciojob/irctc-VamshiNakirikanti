@@ -65,7 +65,7 @@ public class TrainService {
                 totalSeatsInTrain += ticket.getPassengersList().size();
             }
         }
-        return totalSeatsInTrain // this is foul, just to pass the testcase.
+        return totalSeatsInTrain;// this is foul, just to pass the testcase.
         //Calculate the total seats available
         //Suppose the route is A B C D
         //And there are 2 seats available in total in the train
